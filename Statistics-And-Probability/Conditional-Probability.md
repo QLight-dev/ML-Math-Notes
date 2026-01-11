@@ -52,7 +52,7 @@ if we see someone obese and we want to know the probability that they like choco
 
 let c be chocolate.
 let o be obese.
-p(likes **c** and is **o** | is **o**) = 8/10 = 0.8
+p(likes **c** and is **o** | is **o**) = p(likes **c** and is **o**)/p(is **o**) = 8/10 = 0.8
 
 word term:
 the probability that someone likes **chocolate** given that **we know they are obese**, is **0.8**.
